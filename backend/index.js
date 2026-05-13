@@ -15,7 +15,7 @@ app.get('/test-db', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.json({ bericht: 'Server werkt!' });
+  res.json({ bericht: 'Server werkt' });
 });
 
 app.listen(process.env.PORT, () => {
