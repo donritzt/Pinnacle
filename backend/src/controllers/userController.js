@@ -29,4 +29,4 @@ const getUserPins = async (req, res) => {
   }
 };
 
-module.exports = { getUser, getUserPins };
+module.exports = { getUser, getUserPins }; 
